@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First App</title>
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/app.css" />
+    <!-- js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <header></header>
+    <main class="container">
+      <h1>Our First JS App for COMP2112</h1>
+      <button class="btn btn-primary">Call To Action</button>
+      <button class="btn btn-primary" onclick="updateCounterWithClosure()">
+        Click Me
+      </button>
+      <p>You've clicked <span id="clickCount"> 0 </span> times</p>
+      <h2>Contact List</h2>
+      <ul id="contactList" class="list-group"></ul>
+    </main>
+    <footer></footer>
+  </body>
+</html>
